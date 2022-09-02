@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:  linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(59,114,125,1) 53%, rgba(0,0,0,1) 97%);
+    /* background:  linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,114,125,0.5102415966386555) 53%, rgba(0,0,0,1) 97%); */
+    /* background: linear-gradient(180deg, rgba(0,0,0,0.9556197478991597) 53%, rgba(69,91,96,1) 76%, rgba(0,0,0,0.9332107843137255) 85%); */
+}   
+
+nav{
+    border: 1px solid;
+    background: rgba(230, 70, 70, 0.535);
+    height: 4.375rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+input{
+    margin-left: 65%;
+    margin-top: 1.5625rem;
+    width: 17.1875rem;
+    padding: .3125rem .9375rem;
+    border-radius: 3.125rem;
+}
+
+.icon{
+    cursor: pointer;
+    margin-top: 1.5625;
+    margin-left: 93.75rem;
+}
+
+.container{
+    margin-top: 6.25rem;
+    margin-left: 1.25;
+    margin-right: 1.5625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+
+.card1{
+    background: rgba(15, 0, 0, 0.615);
+    height: 17.1875rem;
+    width: 12.5rem;
+    margin-left: .625rem;
+    margin-bottom: .3.125rem;
+}
+
+.img{
+    height: 12.5rem;
+    width: 100;
+    margin-left: 2.125rem;
+    margin-top: 1.25rem;
+}
+
+button{
+    margin-top: .625rem;
+    margin-left: 50%;
+    padding: .3125em;
+    cursor: pointer;
+    background: rgb(70, 66, 66);
+    border: none;
+}
+
+button:hover{
+    background: rgb(159, 0, 0);
+}
+
+.card2{
+    background: rgba(255, 255, 255, 0.76);
+    width: 62.5rem;
+    height: 29.375rem;
+    margin: 0 auto;
+    margin-top: 3.4375rem;
+    padding: 1.5625rem 1.5625rem;
+}
+
+.img2{
+    margin-left: 1.5625rem;
+    margin-top: .9375rem;
+}
+
+.desc{
+    margin-left: .9375rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 37.0625rem;
+    margin-top: 1.5625rem;
+}
+
+.adi{
+    margin-left:1.5625rem;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 16.875rem;
+    justify-content: space-between;
+}
+
+h4{
+    margin-top: .625rem;
+}

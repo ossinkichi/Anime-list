@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/add.css">
+    <title>-Adicionar Anime</title>
+</head>
+<body>
+    <form action="add.php" method="post">
+        <a style="margin-top: 15px; margin-left: -445px;" href="index.php">
+            <img src="https://img.icons8.com/external-others-inmotus-design/40/000000/external-Back-round-icons-others-inmotus-design.png"/>
+        </a>
+        <label for="">Capa</label>
+        <input required type="text" name="image" placeholder="link da imagem">
+        <label for="">Nome</label>
+        <input required type="text" name="titulo">
+        <label for="">Ano de lançamento</label>
+        <input required type="text" name="ano">
+        <label for="">Quantidade de episodios</label>
+        <input required type="number" name="eps">
+        <label for="">Descrição</label>
+        <textarea name="descri" id="" cols="50" rows="50"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
